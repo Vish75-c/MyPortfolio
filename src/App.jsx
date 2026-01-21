@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-import Experience from "./Components/Experience/Experience";
+
 import Work from "./Components/Work/Work";
 import Skills from "./Components/Skills/Skills";
 import About from "./Components/About/About";

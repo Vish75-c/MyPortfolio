@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 px-[12vw]  md:px-[7vw] lg:px-[20vw] font-sans relative "
     >
       {/* Heading */}
       <div className="text-center mb-16">
@@ -118,7 +118,7 @@ const Work = () => {
         <img
           src={selected.image}
           alt={selected.title}
-          className="w-full max-h-[200px]
+          className="w-full max-h-50
           object-cover rounded-xl
           shadow-[0_0_20px_rgba(130,69,236,0.4)]"
         />

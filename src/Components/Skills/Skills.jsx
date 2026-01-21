@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-24 px-[8vw] md:px-[7vw] lg:px-[20vw] font-sans skills-color clip-wave"
+      className="py-24 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans skills-color clip-wave"
     >
       {/* Heading */}
       <div className="text-center mb-14">

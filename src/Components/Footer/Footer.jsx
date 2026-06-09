@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiInstagram, FiArrowUp } from "react-icons/fi";
-import { SiLeetcode } from "react-icons/si";
+import { FiGithub, FiLinkedin, FiArrowUp, FiCode } from "react-icons/fi";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -11,27 +11,27 @@ const Footer = () => {
   const socials = [
     {
       icon: <FiGithub />,
-      link: "https://github.com/vish_75",
+      link: "https://github.com/Vish75-c",
       color: "#f0f6fc",
       shadow: "rgba(240, 246, 252, 0.3)",
     },
     {
       icon: <FiLinkedin />,
-      link: "https://linkedin.com/in/your-link",
+      link: "https://www.linkedin.com/in/vishal-gola-240a24348/",
       color: "#0077b5",
       shadow: "rgba(0, 119, 181, 0.3)",
     },
     {
-      icon: <FiInstagram />,
-      link: "https://instagram.com/your-id",
-      color: "#e4405f",
-      shadow: "rgba(228, 64, 95, 0.3)",
-    },
-    {
       icon: <SiLeetcode />,
-      link: "https://leetcode.com/your-id",
+      link: "https://leetcode.com/u/Vish_75/",
       color: "#ffa116",
       shadow: "rgba(255, 161, 22, 0.3)",
+    },
+    {
+      icon: <SiGeeksforgeeks />,
+      link: "https://www.geeksforgeeks.org/profile/vish75",
+      color: "#2f8d46",
+      shadow: "rgba(47, 141, 70, 0.3)",
     },
   ];
 
@@ -61,7 +61,7 @@ const Footer = () => {
               <FiArrowUp size={24} />
             </motion.div>
             <h2 className="text-2xl md:text-3xl font-bold text-white tracking-[0.2em] uppercase">
-              Vishal <span className="text-[#8245ec]">Gola</span>
+              Vishal <span className="text-[#8245ec]">Kumar Gola</span>
             </h2>
           </motion.div>
 
@@ -101,7 +101,7 @@ const Footer = () => {
             </p>
 
             <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-gray-500 text-xs mt-4">
-              <p>© {new Date().getFullYear()} Vishal Gola</p>
+              <p>© {new Date().getFullYear()} Vishal Kumar Gola</p>
               <span className="hidden md:inline-block w-1 h-1 bg-gray-700 rounded-full" />
               <p>Built with React & Tailwind</p>
               <span className="hidden md:inline-block w-1 h-1 bg-gray-700 rounded-full" />

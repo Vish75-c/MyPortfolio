@@ -89,7 +89,7 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-white text-lg font-black tracking-tighter leading-none">VISHAL</span>
-            <span className="text-[#8245ec] text-[10px] font-bold tracking-[0.3em] leading-none mt-1">GOLA</span>
+            <span className="text-[#8245ec] text-[10px] font-bold tracking-[0.3em] leading-none mt-1">KUMAR GOLA</span>
           </div>
         </motion.div>
 
@@ -120,8 +120,8 @@ const Navbar = () => {
         {/* Social Icons - Premium Pill Style */}
         <div className="hidden md:flex items-center space-x-3">
           {[
-            { icon: <FiGithub size={18} />, url: "https://github.com/vish_75" },
-            { icon: <FiLinkedin size={18} />, url: "https://linkedin.com" }
+            { icon: <FiGithub size={18} />, url: "https://github.com/Vish75-c" },
+            { icon: <FiLinkedin size={18} />, url: "https://www.linkedin.com/in/vishal-gola-240a24348/" }
           ].map((social, idx) => (
             <motion.a
               key={idx}

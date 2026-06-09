@@ -2,9 +2,9 @@ import React from "react";
 import ReactTypingEffect from "../../ReactTypingEffect";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion"; // Essential for the entrance feel
-import profileImage from "../../assets/jin.jpeg";
+import profileImage from "../../assets/WhatsApp Image 2026-06-09 at 1.04.35 PM.jpeg";
 
-const roles = ["Fullstack Developer", "Coder", "Problem Solver"];
+const roles = ["Software Engineer", "Full Stack Developer", "Problem Solver"];
 
 const About = () => {
   return (
@@ -40,7 +40,7 @@ const About = () => {
               transition={{ delay: 0.4 }}
               className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white tracking-tight"
             >
-              Vishal <span className="text-[#8245ec]">Gola</span>
+              Vishal <span className="text-[#8245ec]">Kumar Gola</span>
             </motion.h2>
 
             <motion.h3 
@@ -68,10 +68,10 @@ const About = () => {
             transition={{ delay: 0.8 }}
             className="text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed max-w-xl mx-auto md:mx-0"
           >
-            I am a computer science student with strong knowledge of advanced
-            Data Structures and Algorithms, SQL, and full-stack web development.
-            I enjoy solving problems, building scalable applications, and
-            continuously learning modern technologies.
+            Aspiring Software Engineer with strong fundamentals in Data Structures
+            and Algorithms, Object-Oriented Programming, and DBMS. Proficient in
+            building scalable applications using Node.js, React, MongoDB, and LLM
+            integration. 600+ LeetCode problems solved with a contest rating of 1700+.
           </motion.p>
 
           {/* CTA Button */}
@@ -82,7 +82,7 @@ const About = () => {
             className="flex justify-center md:justify-start gap-4 pt-6"
           >
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1MzgNWWt6efYdufnuVkOAwh6fnUEivIej/view"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center px-8 py-3.5 font-bold text-white transition-all duration-300 bg-[#8245ec] rounded-full hover:bg-[#935cf0] hover:shadow-[0_0_30px_rgba(130,69,236,0.6)]"
